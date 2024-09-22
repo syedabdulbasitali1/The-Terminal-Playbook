@@ -22,6 +22,8 @@ Get Started with Command Prompt or PowerShell
 - Command Prompt: The original Windows shell. Simple, fast, and useful for basic tasks.
 - PowerShell: A more powerful shell with scripting capabilities, useful for automation and advanced system management.
 - Batch File Automation: Create a batch file (`.bat`) to automate repetitive tasks. Write a series of commands in a text file, save it as `.bat`, and run it to execute all commands at once.
+- Package Management: Windows: Use [Chocolatey](https://chocolatey.org/) or [winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/). Example:  
+  `choco install package_name`
 
 ### Use Command Line Text Editors 📝
 While Windows offers powerful GUI text editors like Notepad++ and Visual Studio Code, having a lightweight command-line text editor can be useful when working in terminal environments:
@@ -806,48 +808,12 @@ Examples:
 - `ftp 192.168.1.1` – Connects to an FTP server on the local network.
 - `ftp example.com` – Connects to a remote FTP server.
 ##
-
-
-
-
-
-Tip: Use `ls -la` to see hidden files and detailed file info.
-
-### Network Management 🌐
-- Use `ping` to test network connectivity.
-- Run `ip addr` (Linux) or `ipconfig` (Windows) to view network configurations.
-- Use `traceroute` (Linux) or `tracert` (Windows) to troubleshoot network paths.
-
----
-
-## 🌟 Advanced Command Line Tips
-
-### Git Version Control 💡
-- **Git** is an indispensable tool for tracking changes in your projects.
-  - `git status` - See changes and the current state of your repository.
-  - `git add` - Stage your changes for a commit.
-  - `git commit` - Save your staged changes with a message.
-  - `git push` - Push local changes to a remote repository.
-- Pro Tip: Use `git log --oneline --graph --decorate` for a clean, visual representation of your commit history.
-
-### Pipes & Redirection 🔄
-- Use pipes (`|`) to chain commands together. For example:  
-  `cat file.txt | grep "keyword"` will search for "keyword" inside `file.txt`.  
-- Redirect output to a file using `>` or `>>`. Example:  
-  `command > output.txt` overwrites `output.txt` with the command's output.
-
-### Searching with Grep 🧐
+### Searching with Grep
 - `grep` is a powerful search tool. Some common options:
   - `grep -i` - Case-insensitive search.
   - `grep -v` - Invert the match (show lines that don't contain the pattern).
   - `grep -o` - Show only the matching part of the line.
   - Use `grep -r "text" .` to search recursively in all files within the current directory.
-
-### Package Management 📦
-- Linux: Use `apt-get` or `dnf` to install packages. Example:  
-  `sudo apt-get install package_name`
-- Windows: Use [Chocolatey](https://chocolatey.org/) or [winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/). Example:  
-  `choco install package_name`
 
 ---
 
@@ -855,18 +821,6 @@ Tip: Use `ls -la` to see hidden files and detailed file info.
 
 - **Explainshell**: [explainshell.com](http://explainshell.com/) - Paste any command and get an explanation of each part.
 - **Cheat.sh**: `curl cheat.sh/command` - Instant cheat sheets for any command.
-
----
-
-## 🤝 Contributions
-
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ---
 
