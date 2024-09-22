@@ -807,9 +807,10 @@ Examples:
 
 - `ftp 192.168.1.1` – Connects to an FTP server on the local network.
 - `ftp example.com` – Connects to a remote FTP server.
-##
-### Searching with Grep
-- `grep` is a powerful search tool. Some common options:
+
+## Searching with Grep
+ grep is a powerful search tool. Some common options:
+ 
   - `grep -i` - Case-insensitive search.
   - `grep -v` - Invert the match (show lines that don't contain the pattern).
   - `grep -o` - Show only the matching part of the line.
