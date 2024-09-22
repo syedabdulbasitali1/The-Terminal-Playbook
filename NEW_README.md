@@ -1,6 +1,6 @@
 # The Terminal Playbook 🚀
 
-### Overclock Your Productivity 💻✨
+## Overclock Your Productivity 💻✨
 
 This repository is your ultimate guide to mastering the command line, with a special focus on **Linux** and **Windows** systems. Whether you're a beginner looking to enhance your command line knowledge or a seasoned pro aiming to sharpen your skills, this guide has you covered. It’s packed with practical tips, powerful commands, and advanced techniques to streamline your workflow, save time, and boost productivity.
 
@@ -39,7 +39,7 @@ Unlock the power of the terminal and take full control of your development envir
 - Windows users can also install [Notepad++](https://notepad-plus-plus.org/) or [Visual Studio Code](https://code.visualstudio.com/), but having a command-line text editor like Vim or Nano can be useful when working in terminal environments.
 
 ### Overview
-### File and Directory Operations
+## File and Directory Operations
 
 This section covers commands for working with files and directories in Linux.
 
@@ -74,7 +74,7 @@ This section covers commands for working with files and directories in Linux.
 - `nano [file]` – Edit a file using the nano text editor
 - `vim [file]` – Edit a file using the vim editor
 
-### Process Management
+## Process Management
 
 This section provides commands for managing processes in Linux.
 
@@ -99,18 +99,14 @@ This section provides commands for managing processes in Linux.
 - `renice [priority] [PID]` – Change the priority of a running process
 
 
-
-### File Management 📂
-
+#Commands With Example 
 
 
-
-# File and Directory Commands 
+## File and Directory Commands 📂 
 
 This section provides the most commonly used commands for managing files and directories in Windows.
 
-## dir
-Description:
+### dir
 Lists the contents of a directory.
 
 **Usage:**
@@ -124,8 +120,7 @@ Examples:
 - `dir /w` – Lists directory contents in wide format.
 - `dir /p` – Lists the directory contents page by page.
 
-## cd
-Description:
+### cd
 Changes the current directory.
 
 **Usage:**
@@ -140,8 +135,7 @@ Examples:
 - `cd C:\` – Changes to the root of the C drive.
 - `cd /d D:\Projects` – Changes to the specified directory on a different drive.
 
-## touch
-Description:
+### touch
 Create new file in current directory.
 
 **Usage**
@@ -153,8 +147,7 @@ Example:
 
 - `touch [filename]` – Create a new file
 
-## mkdir
-Description:
+### mkdir
 Creates a new directory.
 
 **Usage:**
@@ -167,8 +160,7 @@ Examples:
 - `mkdir Projects` – Creates a new directory named "Projects" in the current location.
 - `mkdir C:\NewFolder` – Creates a new folder called "NewFolder" in the root of the C drive.
 
-## rmdir
-Description:
+### rmdir
 Removes a directory.
 
 **Usage:**
@@ -181,8 +173,7 @@ Examples:
 - `rmdir NewFolder` – Removes an empty directory called "NewFolder."
 - `rmdir /s /q C:\Projects` – Removes the directory "Projects" and all of its contents without confirmation.
 
-## copy
-Description:
+### copy
 Copies files from one location to another.
 
 **Usage:**
@@ -195,8 +186,7 @@ Examples:
 - `copy file.txt D:\Backup\` – Copies "file.txt" to the "Backup" directory on the D drive.
 - `copy C:\Data\*.txt D:\Backup\` – Copies all text files from the "Data" folder to the "Backup" folder.
 
-## move
-Description:
+### move
 Moves or renames files or directories.
 
 **Usage:**
@@ -209,8 +199,7 @@ Examples:
 - `move file.txt D:\Documents\` – Moves "file.txt" to the "Documents" folder on the D drive.
 - `move C:\OldFolder C:\NewFolder` – Renames "OldFolder" to "NewFolder."
 
-## del
-Description:
+### del
 Deletes one or more files.
 
 **Usage:**
@@ -224,8 +213,7 @@ Examples:
 - `del *.txt` – Deletes all text files in the current directory.
 - `del /q C:\Temp\*.log` – Quietly deletes all ".log" files in the "Temp" directory without asking for confirmation.
 
-## ren
-Description:
+### ren
 Renames a file or directory.
 
 **Usage:**
@@ -238,8 +226,7 @@ Examples:
 - `ren file1.txt file2.txt` – Renames "file1.txt" to "file2.txt."
 - `ren C:\OldName C:\NewName` – Renames the directory "OldName" to "NewName."
 
-## attrib
-Description:
+### attrib
 Displays or changes file attributes.
 
 **Usage:**
@@ -252,8 +239,7 @@ Examples:
 - `attrib +r file.txt` – Sets the "Read-only" attribute for "file.txt."
 - `attrib -h -r C:\Folder\*.* /s` – Removes the "Hidden" and "Read-only" attributes from all files in the "Folder" directory and its subdirectories.
 
-## type
-Description:
+### type
 Displays the contents of a text file.
 
 **Usage:**
@@ -266,12 +252,11 @@ Examples:
 - `type file.txt` – Displays the contents of "file.txt."
 - `type C:\Temp\log.txt` – Displays the contents of the log file in the "Temp" folder.
 
-### Process Management Commands
+## Process Management Commands
 
 This section covers the commands used for managing processes in the Windows operating system.
 
-## tasklist
-Description: 
+### tasklist 
 Displays a list of currently running processes.
 
 **Usage:**
@@ -285,8 +270,7 @@ Examples:
 - `tasklist /svc` – Displays the services hosted in each process.
 - `tasklist /v` – Displays verbose information about running processes.
 
-## taskkill
-Description:
+### taskkill
 Terminates a running process or application.
 
 **Usage:**
@@ -301,8 +285,7 @@ Examples:
 - `taskkill /f /im chrome.exe` – Forcibly terminates all instances of Chrome.
 - `taskkill /f /pid 5678` – Forcibly terminates the process with PID 5678.
 
-## start
-Description:
+### start
 Starts a new instance of a program or command in a new window.
 
 **Usage:**
@@ -316,21 +299,8 @@ Examples:
 - `start cmd /k dir` – Opens a new Command Prompt window and runs the dir command.
 - `start explorer.exe` – Opens a new instance of Windows Explorer.
 
-## taskmgr
-Description:
-Opens the Windows Task Manager to monitor and manage running processes.
 
-**Usage:**
-
-```bash
-taskmgr
-```
-Examples:
-
-- `taskmgr` – Opens Task Manager.
-
-## wmic
-Description:
+### wmic
 The Windows Management Instrumentation Command-line (WMIC) is used to query system information and manage processes.
 
 **Usage:**
@@ -344,8 +314,7 @@ Examples:
 - `wmic process where "name='notepad.exe'" delete` – Terminates the "notepad.exe" process.
 - `wmic process get name,processid` – Displays the name and PID of all running processes.
 
-## sc
-Description:
+### sc
 Communicates with the Service Control Manager to manage Windows services (start, stop, configure).
 
 **Usage:**
@@ -360,8 +329,7 @@ Examples:
 - `sc start Spooler` – Starts the Print Spooler service.
 - `sc config Spooler start= auto` – Sets the Print Spooler service to start automatically on boot.
 
-## schtasks
-Description:
+### schtasks
 Schedules, deletes, or queries tasks on the local or a remote machine.
 
 **Usage:**
@@ -375,8 +343,181 @@ Examples:
 - `schtasks /query /tn "Backup"` – Queries information about the "Backup" task.
 - `schtasks /delete /tn "Backup"` – Deletes the "Backup" task.
 
-## shutdown
-Description:
+## Open Windows Software
+Open Software directly frmo command prompt window.
+
+### taskmgr
+Opens the Windows Task Manager to monitor and manage running processes.
+
+**Usage:**
+
+```bash
+taskmgr
+```
+Examples:
+
+- `taskmgr` – Opens Task Manager.
+
+### powershell
+Starts a PowerShell session, allowing you to run PowerShell commands for advanced process and system management.
+
+**Usage:**
+
+```bash
+powershell [<command>]
+```
+Examples:
+
+- `powershell Get-Process` – Lists all running processes using PowerShell.
+- `powershell Stop-Process` -Name notepad – Stops all instances of Notepad using PowerShell.
+- `powershell Restart-Computer` – Restarts the computer using PowerShell.
+
+### regedit
+Opens the Windows Registry Editor to view or modify system registry settings.
+
+**Usage:**
+
+```bash
+regedit
+```
+Examples:
+
+- `regedit` – Opens the Registry Editor.
+
+### secpol.msc
+Opens the Local Security Policy editor to configure security policies on the computer.
+
+**Usage:**
+
+```bash
+secpol.msc
+```
+Examples:
+
+- `secpol.msc` – Opens the Local Security Policy manager.
+
+### gpedit.msc
+Opens the Group Policy Editor to configure various system policies.
+
+**Usage:**
+
+```bash
+gpedit.msc
+```
+Examples:
+
+- `gpedit.msc` – Opens the Group Policy Editor.
+
+### taskschd.msc
+Opens the Task Scheduler to manage automated tasks on the system.
+
+**Usage:**
+
+```bash
+taskschd.msc
+```
+Examples:
+
+- `taskschd.msc` – Opens the Task Scheduler.
+
+## System Information
+This section covers commands used to gather system information and hardware information.
+
+### systeminfo  
+Displays detailed configuration information about the computer and its operating system.
+
+**Usage:**
+```bash
+systeminfo
+```
+Examples:
+
+- `systeminfo` – Displays detailed information about the system, including OS version, memory, and network details.
+
+### msinfo32
+Opens the Microsoft System Information tool, displaying a graphical view of system information.
+
+**Usage:**
+
+```bash
+msinfo32
+```
+Examples:
+
+- `msinfo32` – Opens the System Information GUI for detailed system hardware and software information.
+
+### wmic
+Queries various system components such as BIOS, CPU, disk drives, and memory.
+
+**Usage:**
+
+```bash
+wmic [query]
+```
+Examples:
+
+- `wmic bios get serialnumber` – Retrieves the system BIOS serial number.
+- `wmic cpu get name` – Displays the CPU name.
+- `wmic memorychip get capacity` – Displays the total physical memory.
+- `wmic diskdrive get status` – Checks the status of the hard disk drive.
+
+### diskpart
+Manages disk partitions, volumes, and virtual hard disks.
+
+**Usage:**
+
+```bash
+diskpart
+```
+Examples:
+
+- `diskpart` – Opens the Disk Partition Manager.
+- `list disk` – Lists all disks.
+- `select disk 0` – Selects disk 0 for partition management.
+- `clean` – Erases all partitions and data from the selected disk.
+
+### bcdedit
+Boot configuration data edit to manage boot options.
+
+**Usage:**
+
+```bash
+bcdedit [command] [options]
+```
+Examples:
+
+- `bcdedit /set {default} bootmenupolicy legacy` – Enables the legacy boot menu.
+- `bcdedit /set increaseuserva 3072` – Allocates more virtual memory to improve performance for certain applications.
+
+### powercfg
+Configures power settings and manages power consumption, useful for optimizing performance and battery life.
+
+**Usage:**
+
+```bash
+powercfg [options]
+```
+Examples:
+
+- `powercfg /list` – Lists all power schemes.
+- `powercfg /energy` – Generates a detailed energy report, identifying issues with power efficiency.
+- `powercfg /hibernate on` – Enables hibernation.
+- `powercfg /hibernate off` – Disables hibernation to save disk space.
+
+### tsshutdn
+Schedules a system shutdown or restart on a remote system via Terminal Services.
+
+Usage:
+
+```bash
+tsshutdn [options]
+```
+Examples:
+
+- `tsshutdn 60 /delay:30 /reboot` – Restarts the system in 60 seconds, with a 30-second warning delay.
+- `tsshutdn /powerdown` – Shuts down the system and powers off.
+
+### shutdown
 Shuts down or restarts the computer.
 
 **Usage:**
@@ -392,94 +533,137 @@ Examples:
 - `shutdown /s /t 60` – Shuts down the computer in 60 seconds.
 - `shutdown /a` – Aborts a system shutdown.
 
-## powershell
+## Windows Optimation and Repair Commands
+help to boost performance and maintain system health.
+
+### cleanmgr
+Opens the Disk Cleanup utility to remove unnecessary files and free up space.
+
+**Usage:**
+
+```bash
+cleanmgr [options]
+```
+Examples:
+
+- `cleanmgr` – Opens the Disk Cleanup tool.
+- `cleanmgr /sageset:1` – Opens Disk Cleanup with advanced options for selecting files to remove.
+- `cleanmgr /sagerun:1` – Runs Disk Cleanup with predefined settings.
+
+### defrag
+Optimizes and defragments hard drives to improve performance.
+
+**Usage:**
+
+```bash
+defrag [drive:] [options]
+```
+Examples:
+
+- `defrag C:` – Defragments the C: drive.
+- `defrag C: /O` – Optimizes and defragments the C: drive.
+- `defrag /C /H /U /V` – Optimizes and defragments all volumes with high priority, updating progress and providing verbose output.
+
+### chkdsk
+Checks the disk for file system errors and bad sectors, optionally repairs them.
+
+**Usage:**
+
+```bash
+chkdsk [drive:] [options]
+```
+Examples:
+
+- `chkdsk C:` – Checks the C: drive for errors.
+- `chkdsk C: /f` – Fixes file system errors on the C: drive.
+- `chkdsk C: /r` – Identifies and repairs bad sectors on the C: drive.
+
+### sfc
+Scans and repairs protected system files.
+
+**Usage:**
+
+```bash
+sfc /scannow
+```
+Examples:
+
+- `sfc /scannow` – Scans the system for corrupted or missing files and repairs them.
+- `sfc /verifyonly` – Scans for integrity violations without making repairs.
+
+### verifier
+Driver Verifier Manager checks for faulty drivers that may cause system issues.
+
+**Usage:**
+
+```bash
+verifier [options]
+```
+Examples:
+
+- `verifier` – Opens the Driver Verifier Manager.
+- `verifier /query` – Queries the current settings of the Driver Verifier.
+
+### mdsched
+Runs the Windows Memory Diagnostic tool to check for memory errors.
+
+**Usage:**
+
+```bash
+mdsched
+```
+Examples:
+
+- `mdsched` – Opens the Windows Memory Diagnostic tool for a memory test.
+
+### dism
+Deployment Image Servicing and Management (DISM) is used to repair Windows images, including the Windows Recovery Environment.
+
+**Usage:**
+
+```bash
+dism /Online /Cleanup-Image /RestoreHealth
+```
+Examples:
+
+- `dism /Online /Cleanup-Image /RestoreHealth` – Repairs a corrupted Windows image.
+- `dism /Online /Cleanup-Image /CheckHealth` – Checks if the image has any corruption.
+
+
+
+## Windows Security Commands
+These commands ensure your system is safe and properly configured.
+
+## mrt
 Description:
-Starts a PowerShell session, allowing you to run PowerShell commands for advanced process and system management.
+Runs the Microsoft Malicious Software Removal Tool to scan for and remove malware.
 
 **Usage:**
 
 ```bash
-powershell [<command>]
+mrt
 ```
 Examples:
 
-- `powershell Get-Process` – Lists all running processes using PowerShell.
-- `powershell Stop-Process` -Name notepad – Stops all instances of Notepad using PowerShell.
-- `powershell Restart-Computer` – Restarts the computer using PowerShell.
+- `mrt` – Opens the Microsoft Malicious Software Removal Tool.
 
-## regedit
-Description:
-Opens the Windows Registry Editor to view or modify system registry settings.
+## Networking Commands
+This section covers essential Windows networking commands that help troubleshoot, configure, and manage network connections.
 
-**Usage:**
-
-```bash
-regedit
-```
-Examples:
-
-- `regedit` – Opens the Registry Editor.
-
-### System Info
-This section covers commands used to gather system information.
-
-## systeminfo
-Description:  
-Displays detailed configuration information about the computer and its operating system.
+### ipconfig  
+Displays the current Transmission Control Protocol/Internet Protocol (TCP/IP) network configuration for the system, including IP address, subnet mask, default gateway, and Domain Name System (DNS) settings.
 
 **Usage:**
 ```bash
-systeminfo
+ipconfig [options]
 ```
 Examples:
 
-- `systeminfo` – Displays detailed information about the system, including OS version, memory, and network details.
-
-## msinfo32
-Description:
-Opens the System Information tool, displaying a graphical view of system information.
-
-**Usage:**
-
-```bash
-msinfo32
-```
-Examples:
-
-- `msinfo32` – Opens the System Information GUI for detailed system hardware and software information.
-
-## wmic
-Description:
-Queries various system components such as BIOS, CPU, disk drives, and memory.
-
-**Usage:**
-
-```bash
-wmic [query]
-```
-Examples:
-
-- `wmic bios get serialnumber` – Retrieves the system BIOS serial number.
-- `wmic cpu get name` – Displays the CPU name.
-- `wmic memorychip get capacity` – Displays the total physical memory.
-- `wmic diskdrive get status` – Checks the status of the hard disk drive.
-
-## diskpart
-Description:
-Manages disk partitions, volumes, and virtual hard disks.
-
-**Usage:**
-
-```bash
-diskpart
-```
-Examples:
-
-- `diskpart` – Opens the Disk Partition Manager.
-- `list disk` – Lists all disks.
-- `select disk 0` – Selects disk 0 for partition management.
-- `clean` – Erases all partitions and data from the selected disk.
-
+- `ipconfig` – Displays basic network configuration.
+- `ipconfig /all` – Shows detailed network configuration, including DHCP and DNS settings.
+- `ipconfig /release` – Releases the current IP address of all network adapters.
+- `ipconfig /renew` – Renews the IP address for all adapters.
+- `ipconfig /flushdns` – Clears the DNS cache to resolve DNS-related issues.
 
 
 Tip: Use `ls -la` to see hidden files and detailed file info.
