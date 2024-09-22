@@ -21,6 +21,8 @@ For those interested in learning Linux commands, see our dedicated Linux Command
 Get Started with Command Prompt or PowerShell
 - Command Prompt: The original Windows shell. Simple, fast, and useful for basic tasks.
 - PowerShell: A more powerful shell with scripting capabilities, useful for automation and advanced system management.
+- Batch File Automation: Create a batch file (`.bat`) to automate repetitive tasks. Write a series of commands in a text file, save it as `.bat`, and run it to execute all commands at once.
+
 ### Use Command Line Text Editors 📝
 While Windows offers powerful GUI text editors like Notepad++ and Visual Studio Code, having a lightweight command-line text editor can be useful when working in terminal environments:
 
