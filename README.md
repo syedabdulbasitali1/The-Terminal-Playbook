@@ -1,6 +1,6 @@
-# The Terminal Playbook 🚀
+# The Terminal Playbook 💻✨
 
-## Overclock Your Productivity 💻✨
+## Overclock Your Productivity 🚀
 
 This repository is your ultimate guide to mastering the command line, with a special focus on **Linux** and **Windows** systems. Whether you're a beginner looking to enhance your command line knowledge or a seasoned pro aiming to sharpen your skills, this guide has you covered. It’s packed with practical tips, powerful commands, and advanced techniques to streamline your workflow, save time, and boost productivity.
 
