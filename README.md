@@ -1,5 +1,6 @@
 # The Terminal Playbook 💻✨
-##Overclock Your Productivity on Windows 🚀
+![Social Preview](https://raw.githubusercontent.com/<YourUsername>/<YourRepoName>/main/assets/<YourImageName>.png)
+## Overclock Your Productivity on Windows 🚀
 This repository is your ultimate guide to mastering the Windows command line, with a comprehensive focus on Windows-specific tools and techniques. Whether you're a beginner looking to enhance your command line knowledge or an advanced user aiming to sharpen your skills, this guide has everything you need. It’s packed with practical tips, powerful commands, and advanced techniques to streamline your workflow, save time, and boost productivity.
 
 Mastering the Windows command line is a game-changer for users and developers alike. This guide empowers you to:
@@ -16,7 +17,7 @@ This guide is perfect for beginners and advanced users alike, offering essential
 The guide exclusively focuses on Windows systems, including Command Prompt and PowerShell. We’ll highlight tips and tricks for efficiently using the command line in a Windows environment.
 
 For those interested in learning Linux commands, see our dedicated Linux Commands Guide.
-
+![Social Preview](https://raw.githubusercontent.com/<YourUsername>/<YourRepoName>/main/assets/<YourImageName>.png)
 ### Windows Command Line Basics
 Get Started with Command Prompt or PowerShell
 - Command Prompt: The original Windows shell. Simple, fast, and useful for basic tasks.
