@@ -329,81 +329,74 @@ Examples:
 - `schtasks /delete /tn "Backup"` – Deletes the "Backup" task.
 
 ## Open Windows Software
-Open Software directly frmo command prompt window.
+Open Software directly from command prompt window.
+
+
+### Microsoft Edge Browser
+
+- `start msedge` : Open Edge
+- `start msedge www.example.com` : Open Edge and go to a specific website
+- `start msedge "https://www.bing.com/search?q=your+query"` : Open Edge and search a query
+
+### Windows Settings
+
+- `start ms-settings`: Open Windows Settings
+
+
+### Control Panel
+
+- `start control` : Open Control Panel
+
+### Open VS Code
+
+- `code .` :Open VS code in current directory
+- `code path/to/directory` : Open VS Code in a specific directory
+
+### Open File Explorer
+
+- `explorer .` : Open file explorer in current diretory
+- `explorer path\to\directory` : Open File Explorer in a specific directory
 
 ### taskmgr
 Opens the Windows Task Manager to monitor and manage running processes.
 
-Usage:
-
-```bash
-taskmgr
-```
-Examples:
-
 - `taskmgr` – Opens Task Manager.
-##
+
+### regedit
+Opens the Windows Registry Editor to view or modify system registry settings.
+
+- `regedit` – Opens the Registry Editor.
+
+### secpol.msc
+Opens the Local Security Policy editor to configure security policies on the computer.
+
+- `secpol.msc` – Opens the Local Security Policy manager.
+
+### gpedit.msc
+Opens the Group Policy Editor to configure various system policies.
+
+- `gpedit.msc` – Opens the Group Policy Editor.
+
+### taskschd.msc
+Opens the Task Scheduler to manage automated tasks on the system.
+
+- `taskschd.msc` – Opens the Task Scheduler.
+
 ### powershell
 Starts a PowerShell session, allowing you to run PowerShell commands for advanced process and system management.
-
-Usage:
-
-```bash
-powershell [<command>]
-```
-Examples:
 
 - `powershell Get-Process` – Lists all running processes using PowerShell.
 - `powershell Stop-Process` -Name notepad – Stops all instances of Notepad using PowerShell.
 - `powershell Restart-Computer` – Restarts the computer using PowerShell.
-##
-### regedit
-Opens the Windows Registry Editor to view or modify system registry settings.
 
-**Usage:**
+### Extra Tips:
+For any program installed on your system, you can usually use the Start command:
 
-```bash
-regedit
-```
-Examples:
+- `start program_name`
 
-- `regedit` – Opens the Registry Editor.
-##
-### secpol.msc
-Opens the Local Security Policy editor to configure security policies on the computer.
+If you know the location of the .exe file of any program, you can run it using the complete path:
 
-Usage:
-
-```bash
-secpol.msc
-```
-Examples:
-
-- `secpol.msc` – Opens the Local Security Policy manager.
-##
-### gpedit.msc
-Opens the Group Policy Editor to configure various system policies.
-
-Usage:
-
-```bash
-gpedit.msc
-```
-Examples:
-
-- `gpedit.msc` – Opens the Group Policy Editor.
-##
-### taskschd.msc
-Opens the Task Scheduler to manage automated tasks on the system.
-
-Usage:
-
-```bash
-taskschd.msc
-```
-Examples:
-
-- `taskschd.msc` – Opens the Task Scheduler.
+- `C:\Program Files\Software\software.exe`
 
 ## System Information
 This section covers commands used to gather system information and hardware information.
